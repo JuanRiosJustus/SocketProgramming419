@@ -1,0 +1,12 @@
+Justus Brown Report
+
+This is a basic showing of how socket programming works. The design
+is fairly simple. The user enters in information from some terminal
+with some given options and then if the server is running, it will
+determine if all input from the client, excluding new line characters 
+are palindromes. On the server side, the calculations are done and then
+are sent back to the client.
+
+My role in this project was to write the program for the interaction.
+
+Link to project: https://github.com/JuanRiosJustus/SocketProgramming419
