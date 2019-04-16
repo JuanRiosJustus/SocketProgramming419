@@ -1,0 +1,31 @@
+USER MANUAL
+
+by Justus Brown
+For Computer Networking
+
+Installation Prerequasites:
+    In order to use the program to its fullest extend you must have
+the JRE installed on your machine from version 8 and onward are supported.
+Older versions are not supported.
+
+Program Usage:
+    To use the program, ensure the Executable JAR file is in the correct
+location. After ensuring that it is, go to the terminal and run the respective
+JAR file using the command line. For usage of the Server-Side Jar, there is
+only one arguement available, the port value. To assign the port value using
+the terminal, you must use '-port=####'. If no port is specified than the
+program will use a a defualt port. The Client-Side JAR has similar functionality
+in that it provides many beginner friendly options should you choose to 
+enter few arguments. The Client-Side JAR has two options compared to the one
+from the Server-side JAR. the first option, specifices the port, while
+the second option is the name of the server to connect to. To specify the
+port you enter '-port=x' where x is your port and 'y' where y is 
+your server name.
+
+Example of Server-side call:
+    'java PalindromeCheckerServer –port=1221'
+Example of Client-side call:
+    'java PalindromeCheckerClient -port=1221 holly.brockport.edu'
+
+    The server and client will stop if you enter no characters to 
+the server.
